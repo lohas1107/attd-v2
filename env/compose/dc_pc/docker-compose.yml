@@ -41,6 +41,7 @@ services:
       retries: 10
 
   phpmyadmin:
+    platform: linux/amd64
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin.test.atdd
     platform: linux/amd64
